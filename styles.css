@@ -1,14 +1,25 @@
+:root {
+  --NAVY-BLUE: #2e2f42;
+  --IRIS: #4d5ae5;
+  --SLATE: #434455;
+  --OCEAN: #404bbf;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var;
+  background-color: #ffffff;
 }
-h1 {
-  color: #2e2f42;
-  font-size: 56px;
-  font-weight: 700;
-  letter-spacing: 1.12px;
-  line-height: 1.07143;
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
 h2 {
   color: #2e2f42;
   font-size: 36px;
@@ -29,6 +40,17 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.hp-section {
+  background-color: #2e2f42;
+}
+.hp-header {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 .filter-button {
   cursor: pointer;
@@ -70,6 +92,7 @@ p {
   color: #404bbf;
 }
 .order-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   color: #fff;
   display: inline-flex;
@@ -85,5 +108,8 @@ p {
   letter-spacing: 0.64px;
 }
 .order-button:hover {
+  background: var(--OCEAN, #404bbf);
+}
+.order-button:focus {
   background: var(--OCEAN, #404bbf);
 }
