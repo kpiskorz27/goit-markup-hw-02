@@ -79,6 +79,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .button:hover,
 .button:focus {
@@ -125,10 +126,10 @@ a {
 .team-list {
   background-color: #ffffff;
 }
-footer {
+.footer {
   background-color: var(--NAVY-BLUE);
 }
-footer .link {
+.footer .link {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
